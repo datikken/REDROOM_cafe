@@ -1,0 +1,34 @@
+.App {
+  text-align: center;
+  width: 100vw;
+  background: black;
+}
+
+.navbar-brand {
+  font-family: 'Roboto', sans-serif;
+  color: red!important;
+}
+
+p {
+  font-size: 20wv;
+}
+
+.sectionWrapper {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 15px;
+  padding-right: 20px;
+  background-color: black;
+}
+ 
+.navLink, a {
+  color: red!important;
+}
+
+h1 {
+  color: white;
+}
+
+.dropdownItem {
+  background: black;
+}
