@@ -4,6 +4,7 @@ import Navbar from './Components/Navbar'
 import Carousel from './Components/Carousel'
 import Section from './Components/Section'
 import Section2 from './Components/Section2'
+import Footer from './Components/Footer'
 
 class App extends Component {
   render() {
@@ -11,8 +12,9 @@ class App extends Component {
       <div className="App">
         <Navbar/>
         <Carousel/>
-        <Section/>
         <Section2/>
+        <Section/>
+        <Footer/>
       </div>
     );
   }

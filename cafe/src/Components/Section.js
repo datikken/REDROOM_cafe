@@ -28,15 +28,9 @@ const Section = () => {
                 <img src={medium2} srcSet={`${small2} 500w, ${medium2} 1100w`} />
                 </a>
                 </div>
-                
                 <div className="sectionItem">
                 <a href="#">
                 <img src={medium3} srcSet={`${small3} 500w, ${medium3} 1100w`} />
-                </a>
-                </div>
-                <div className="sectionItem">
-                <a href="#">
-                <img src={medium4} srcSet={`${small4} 500w, ${medium4} 1100w`} />
                 </a>
                 </div>
             </div>

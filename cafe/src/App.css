@@ -1,6 +1,4 @@
 .App {
-  text-align: center;
-  width: 100vw;
   background: black;
 }
 
@@ -11,11 +9,12 @@
 
 p {
   font-size: 20wv;
+  color: white;
 }
 
 .sectionWrapper {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   padding-left: 15px;
   padding-right: 20px;
   background-color: black;
@@ -23,12 +22,67 @@ p {
  
 .navLink, a {
   color: red!important;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.1em;
 }
 
-h1 {
-  color: white;
+h1, h3 {
+  color: red;
+  text-align: center;
 }
 
 .dropdownItem {
+  background: #0e1111;
+}
+.section2Item {
+        width: 80%;
+        margin: auto;
+        margin-bottom: 5%;
+        font-family: 'Roboto', sans-serif;
+      }
+.cardWrapper {
+  display: flex;
+}
+
+p {
+  text-align: center;
+}
+
+.dropdown-menu {
+  background: red!important;
+}
+
+.heading {
+  color: gold;
+  text-align: center;
+  font-size: 3em;
+  padding-top: 150px;
+  width: 100%;
+}
+
+span {
+  display: block;
+  background: url('https://images.unsplash.com/photo-1500670602153-5e2dd3c75f20?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1490&q=80');
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: fire 3s linear infinite;
+  -webkit-backface-visibility: hidden;
+  font-family: 'Roboto', sans-serif;
+}
+
+@keyframes fire {
+  0%{background-position: 1% -50%;}
+  100%{background-position: 100% 100%;}
+}
+
+
+footer {
+  height: 250px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background:black;
+}
+
+.sectionWrapper {
   background: black;
 }

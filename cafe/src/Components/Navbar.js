@@ -29,11 +29,11 @@ export default class Example extends React.Component {
   render() {
     return (
       <div className="navbarWrapper">
-        <Navbar light expand="md">
+        <Navbar light expand="md" >
           <NavbarBrand href="/">REDROOM CAFE</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
-            <Nav className="ml-auto" navbar>
+            <Nav className="ml-auto" navbar fixedTop>
               <NavItem>
                 <NavLink href="tel:79991222667">Калининград +7 (999) 122 26 67</NavLink>
               </NavItem>
